@@ -2,7 +2,7 @@
 def levitation_quiz
 	puts "What is the spell that enacts levitation?"
 	answer = gets
-	puts "You passed the quiz!" ? 
+	puts "You passed the quiz!" ? 'Wingardium Leviosa' : levitation_quiz
 	
 end
 
